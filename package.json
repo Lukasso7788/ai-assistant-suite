@@ -1,0 +1,11 @@
+{
+  "name": "ai-assistant-suite",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:standalone": "npm -w assistant-standalone run dev"
+  }
+}
